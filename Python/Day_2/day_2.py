@@ -3,16 +3,19 @@ print("Advent Of Code - Day 2")
 
 PUZZLEINPUT = open('input.txt').read().strip().split(',')
 data = [int(i) for i in PUZZLEINPUT]
-
+data[1] = 12
+data[2] = 2
 
 for x in range(0, len(data), 4):
+    opcode = data[x]
     x1, x2, x3 = data[x + 1], data[x + 2], data[x + 3]
 
-    if data[x] == 1:
+    if opcode == 1:
         data[x3] = data[x1]+data[x2]
-    elif data[x] == 2:
+    elif opcode == 2:
         data[x3] = data[x1]*data[x2]
-    elif data[x] == 99:
+    elif opcode == 99:
+        print(x)
         break
 
 print(data[0])
