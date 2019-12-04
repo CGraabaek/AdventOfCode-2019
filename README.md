@@ -7,7 +7,8 @@ My solutions to AoC 2019.
 |:-------:|:--------------------------------------------------------|:------------------------------:|
 | 01      | [The Tyranny of the Rocket Equation][day01]             | [:heavy_check_mark:][py01]     |                               
 | 02      | [1202 Program Alarm][day02]                             | [:heavy_check_mark:][py02]     |                              
-| 03      | [Crossed Wires][day03]                                  |                               |                             
+| 03      | [Crossed Wires][day03]                                  | [:heavy_check_mark:][py03]     |                             
+| 04      | [Secure Container][day04]                                  |      |                             
 
 
 
@@ -38,10 +39,10 @@ My solutions to AoC 2019.
 
 
 
-[py01]: ./Python/Day_1/aoc_day1.py
-[py02]: ./Python/Day_2/aoc_day2.py
-[py03]: ./Python/Day_3/aoc_day3.py
-[py04]: ./Python/Day_4/aoc_day4.py
+[py01]: ./Python/Day_1/day_1.py
+[py02]: ./Python/Day_2/day_2.py
+[py03]: ./Python/Day_3/day_3.py
+[py04]: ./Python/Day_4/day_4.py
 [py05]: ./Python/Day_5/aoc_day5.py
 [py06]: ./Python/Day_6/aoc_day6.py
 [py07]: ./Python/Day_7/aoc_day7.py

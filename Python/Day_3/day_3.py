@@ -2,6 +2,8 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import numpy as np
+from collections import defaultdict
+
 
 print("Advent Of Code - Day 3")
 
@@ -22,7 +24,6 @@ def get_posistion(wire):
     for i in range(0,len(wire)):
        #Increment the position with one for each of the commands lenght
         for j in range(0,int(wire[i][1:])):
-            
             direction = wire[i][0]
             
             if  direction == "R":
@@ -38,6 +39,37 @@ def get_posistion(wire):
     
     return positions
 
+def get_posistion_with_distance(wire,all_wire_crossings):
+    #Initial postions
+    x, y = 0, 0
+    wire_crossings = defaultdict(int)
+    distance = 0
+    positions = set()
+
+    for i in range(0,len(wire)):
+       #Increment the position with one for each of the commands lenght
+        for j in range(0,int(wire[i][1:])):
+            direction = wire[i][0]
+            
+            if  direction == "R":
+                x +=1
+            elif direction == "L":
+                x -=1
+            elif direction == "U":
+                y -=1
+            elif direction == "D":
+                y +=1
+
+            distance += 1 
+            
+            positions.add((x, y))
+            
+            #Look through intersections
+            if(x,y) in all_wire_crossings:
+                wire_crossings[(x,y)] = distance
+    
+    return wire_crossings
+
 
 positions_1 = get_posistion(wire_1)
 positions_2 = get_posistion(wire_2)
@@ -49,3 +81,12 @@ for intersection in intersections:
     manhattan_distances.append(manhattan_distance(intersection))
 
 print(f'Part 1: {min(manhattan_distances)}')
+
+#Part 2
+pos1_distance = get_posistion_with_distance(wire_1,intersections)
+pos2_distance = get_posistion_with_distance(wire_2,intersections)
+
+print(f'Part 2: {min(pos1_distance[wire_crossing] + pos2_distance[wire_crossing] for wire_crossing in intersections)}')
+
+
+
