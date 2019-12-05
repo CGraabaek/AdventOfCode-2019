@@ -7,8 +7,9 @@ My solutions to AoC 2019.
 |:-------:|:--------------------------------------------------------|:------------------------------:|
 | 01      | [The Tyranny of the Rocket Equation][day01]             | [:heavy_check_mark:][py01]     |                               
 | 02      | [1202 Program Alarm][day02]                             | [:heavy_check_mark:][py02]     |                              
-| 03      | [Crossed Wires][day03]                                  | [:heavy_check_mark:][py04]     |                             
-| 05      | [Sunny with a Chance of Asteroids][day05]                                  |      |                             
+| 03      | [Crossed Wires][day03]                                  | [:heavy_check_mark:][py03]     |                             
+| 04      | [Secure Container][day04]                               | [:heavy_check_mark:][py04]     |                        
+| 05      | [Sunny with a Chance of Asteroids][day05]               |      |                             
 
 
 
