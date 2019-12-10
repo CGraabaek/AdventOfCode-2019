@@ -10,7 +10,6 @@ IM_WIDTH = 25
 
 IM_PIXELS = IM_HEIGHT*IM_WIDTH
 
-
 def get_layers(image):
     layer_count = int(len(image)/IM_PIXELS)
 
@@ -45,7 +44,7 @@ def print_image(layers):
                 if layers[lay][pos] == 1:
                     print("#", end="")
                 else:
-                    print(".", end="")
+                    print(" ", end="")
                 break
         print()
 print('Part 2:')
