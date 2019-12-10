@@ -9,7 +9,12 @@ My solutions to AoC 2019.
 | 02      | [1202 Program Alarm][day02]                             | [:heavy_check_mark:][py02]     |                              
 | 03      | [Crossed Wires][day03]                                  | [:heavy_check_mark:][py03]     |                             
 | 04      | [Secure Container][day04]                               | [:heavy_check_mark:][py04]     |                        
-| 05      | [Sunny with a Chance of Asteroids][day05]               |      |                             
+| 05      | [Sunny with a Chance of Asteroids][day05]               |      |                            
+| 06      | [Sunny with a Chance of Asteroids][day05]               |      |                            
+| 07      | [Amplification Circuit][day07]               |      |                            
+| 08      | [Space Image Format][day05]               |      |                            
+| 09      | [Sensor Boost][day05]               |      |                            
+| 10      | [Universal Orbit Map][day05]               |      |                             
 
 
 
