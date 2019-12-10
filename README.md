@@ -10,11 +10,11 @@ My solutions to AoC 2019.
 | 03      | [Crossed Wires][day03]                                  | [:heavy_check_mark:][py03]     |                             
 | 04      | [Secure Container][day04]                               | [:heavy_check_mark:][py04]     |                        
 | 05      | [Sunny with a Chance of Asteroids][day05]               |      |                            
-| 06      | [Sunny with a Chance of Asteroids][day05]               |      |                            
+| 06      | [Universal Orbit Map][day06]               |      |                            
 | 07      | [Amplification Circuit][day07]               |      |                            
-| 08      | [Space Image Format][day05]               | [:heavy_check_mark:][py08]       |                            
-| 09      | [Sensor Boost][day05]               |      |                            
-| 10      | [Universal Orbit Map][day05]               |      |                             
+| 08      | [Space Image Format][day08]               | [:heavy_check_mark:][py08]       |                            
+| 09      | [Sensor Boost][day09]               |      |                            
+| 10      | [Universal Orbit Map][day10]               |      |                             
 
 
 
