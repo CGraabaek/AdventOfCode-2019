@@ -1,7 +1,6 @@
 import math
 from collections import defaultdict
 
-
 print("Advent Of Code - Day 10")
 
 PUZZLEINPUT = open('input.txt', 'r').read().split("\n")

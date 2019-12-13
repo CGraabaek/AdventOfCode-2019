@@ -15,6 +15,9 @@ My solutions to AoC 2019.
 | 08      | [Space Image Format][day08]               | [:heavy_check_mark:][py08]       |                            
 | 09      | [Sensor Boost][day09]               |      |                            
 | 10      | [Universal Orbit Map][day10]               |      |                             
+| 11      | [Space Police][day11]               |      |                             
+| 12      | [The N-Body Problem][day12]               |      |                             
+| 13      | [Care Package][day13]               |      |                             
 
 
 
