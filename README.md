@@ -18,6 +18,8 @@ My solutions to AoC 2019.
 | 11      | [Space Police][day11]               |      |                             
 | 12      | [The N-Body Problem][day12]               |      |                             
 | 13      | [Care Package][day13]               |      |                             
+| 14      | [Space Stoichiometry ][day14]               |      |                             
+| 15      | [Oxygen System][day15]               |      |                             
 
 
 
